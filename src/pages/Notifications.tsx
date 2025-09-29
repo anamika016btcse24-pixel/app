@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Bell, CheckCircle, AlertTriangle, Info, Award, Calendar, Settings } from 'lucide-react';
+import { Bell, CircleCheck as CheckCircle, TriangleAlert as AlertTriangle, Info, Award, Calendar, Settings } from 'lucide-react';
 import { notifications } from '../data/mockData';
 
 const Notifications: React.FC = () => {

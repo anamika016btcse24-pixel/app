@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { Play, BarChart3, Award, AlertTriangle, CheckCircle, ArrowLeft } from 'lucide-react';
+import { Play, ChartBar as BarChart3, Award, TriangleAlert as AlertTriangle, CircleCheck as CheckCircle, ArrowLeft } from 'lucide-react';
 import { tests } from '../data/mockData';
 
 const VideoAnalysis: React.FC = () => {

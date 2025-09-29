@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Camera, CheckCircle, AlertTriangle, Upload, Edit, Award, MapPin, Calendar } from 'lucide-react';
+import { Camera, CircleCheck as CheckCircle, TriangleAlert as AlertTriangle, Upload, CreditCard as Edit, Award, MapPin, Calendar } from 'lucide-react';
 import { currentAthlete } from '../data/mockData';
 
 const Profile: React.FC = () => {

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Home, User, Activity, BarChart3, Trophy, Bell, Camera, Wifi, WifiOff, Upload } from 'lucide-react';
+import { Hop as Home, User, Activity, ChartBar as BarChart3, Trophy, Bell, Camera, Wifi, WifiOff, Upload } from 'lucide-react';
 import { syncOfflineData, getQueuedItems } from '../utils/offlineStorage';
 
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {

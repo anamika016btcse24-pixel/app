@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { Camera, Video, Square, Upload, CheckCircle, AlertTriangle, Loader } from 'lucide-react';
+import { Camera, Video, Square, Upload, CircleCheck as CheckCircle, TriangleAlert as AlertTriangle, Loader } from 'lucide-react';
 import { tests } from '../data/mockData';
 import { addToQueue, runOfflineAnalysis } from '../utils/offlineStorage';
 

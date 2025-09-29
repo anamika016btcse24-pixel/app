@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { WiFi, WifiOff, Upload, HardDrive, Eye, Volume2, Shield, Trash2, Download } from 'lucide-react';
+import { File as WiFi, WifiOff, Upload, HardDrive, Eye, Volume2, Shield, Trash2, Download } from 'lucide-react';
 import { getSettings, updateSettings, getQueuedItems, syncOfflineData } from '../utils/offlineStorage';
 
 const Settings: React.FC = () => {

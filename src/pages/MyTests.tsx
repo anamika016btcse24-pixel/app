@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Play, Upload, FileText, CheckCircle, Clock, AlertTriangle, Calendar, Camera } from 'lucide-react';
+import { Play, Upload, FileText, CircleCheck as CheckCircle, Clock, TriangleAlert as AlertTriangle, Calendar, Camera } from 'lucide-react';
 import { tests } from '../data/mockData';
 
 const MyTests: React.FC = () => {

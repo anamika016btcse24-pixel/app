@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Trophy, Medal, Award, Filter, Users } from 'lucide-react';
+import { Trophy, Medal, Award, ListFilter as Filter, Users } from 'lucide-react';
 import { leaderboardData, currentAthlete } from '../data/mockData';
 
 const Leaderboard: React.FC = () => {
